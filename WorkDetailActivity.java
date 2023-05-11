@@ -50,7 +50,7 @@ import java.util.List;
 import java.util.Map;
 
 public class WorkDetailActivity extends AppCompatActivity implements TitleDataAdapter.OnLongClickEditListener,
-        PartsUsedAdapter.OnLongClickEditListener, NewWorkDialog.DialogListener, AddPartUsedDialog.DialogListener {
+    PartsUsedAdapter.OnLongClickEditListener, NewWorkDialog.DialogListener, AddPartUsedDialog.DialogListener {
     RecyclerView workDetailRV;
     RecyclerView partsUsedRV;
     RecyclerView.Adapter workDetailAdapter;
